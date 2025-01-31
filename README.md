@@ -54,3 +54,23 @@ Many people struggle with **managing their spending habits** and **optimizing th
 git clone https://github.com/AditiChikkali/AIBudgetAssistant.git
 cd finance-assistant
 ```
+### **2️⃣ Setup the backend**
+cd finance-backend
+python -m venv env
+source env/bin/activate  # For Windows: env\Scripts\activate
+pip install -r requirements.txt
+uvicorn main:app --reload
+
+### **2️⃣ Setup the frontend**
+cd ../finance-assistant
+npm install
+npm run dev
+
+🤝 Contributing
+Contributions are welcome! To contribute:
+
+Fork the repository.
+Create a new branch (feature-branch).
+Make your changes and commit them.
+Push to your fork and create a Pull Request.
+
