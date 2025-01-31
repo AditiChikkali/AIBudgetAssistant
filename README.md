@@ -55,22 +55,26 @@ git clone https://github.com/AditiChikkali/AIBudgetAssistant.git
 cd finance-assistant
 ```
 ### **2️⃣ Setup the backend**
+```sh
 cd finance-backend
 python -m venv env
 source env/bin/activate  # For Windows: env\Scripts\activate
 pip install -r requirements.txt
 uvicorn main:app --reload
+```
 
 ### **2️⃣ Setup the frontend**
+```sh
 cd ../finance-assistant
 npm install
 npm run dev
+```
 
 🤝 Contributing
 Contributions are welcome! To contribute:
 
-Fork the repository.
-Create a new branch (feature-branch).
-Make your changes and commit them.
-Push to your fork and create a Pull Request.
+- Fork the repository.
+- Create a new branch (feature-branch).
+- Make your changes and commit them.
+- Push to your fork and create a Pull Request.
 
